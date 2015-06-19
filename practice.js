@@ -81,6 +81,7 @@ $('p').on('click', function(){
 	$('p').addClass('red-text');
 });*/
 
+<<<<<<< HEAD
 // $('p').click(function(){
 // 	$(this).addClass('red-text');
 // });
@@ -105,3 +106,11 @@ $(document).ready(function(){
 		$(this).hide();
 	});
 });
+=======
+$('p').hover(function(){
+	$(this).addClass('red-text');
+});
+$('h1').click(function(){
+	$(this).addClass('border-text');
+});
+>>>>>>> 1a1735d4e9f2c2b15033e717d2daad255a447793
