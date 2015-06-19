@@ -61,3 +61,29 @@ sam.sayHello();*/
 
 //Targeting HTML elements
 // var h = document.getElementById('main-heading');
+
+/* NOTE: javascript can be executed like this in
+* a separate file, but must be 'sourced' after the
+* other elements on the page have been loaded */
+// var h = document.getElementById("main-heading");
+
+// AJAX and jQuery
+/*var h = document.querySelector('h1');
+var addRedClass = function(){
+	h.className = h.className + " red-text";
+}
+h.addEventListener('mouseover', addRedClass);*/
+
+// jQuery selectors
+/*var h = $('#main-heading');
+
+$('p').on('click', function(){
+	$('p').addClass('red-text');
+});*/
+
+$('p').hover(function(){
+	$(this).addClass('red-text');
+});
+$('h1').click(function(){
+	$(this).addClass('border-text');
+});
